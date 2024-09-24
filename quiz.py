@@ -1,15 +1,15 @@
-# Program Developed by AJIMATI IBRAHIM A.K.A Horlalaycon @ github https://github.com/Horlalaycon
+# Program Developed by sys_br3ach3r A.K.A Horlalaycon @ GitHub
 
 import random
 import time
 from questions import quiz
 
-welcome = """
+banner = r"""
                     ++++++++++++++++++++++++++++++++++++++
                     ++++++++++++++++++++++++++++++++++++++
                     |||                                |||
-                    |||  python and hacking related    |||
-                    |||          quiz program          |||
+                    |||  programming & cybersecurity   |||
+                    |||  related quiz program          |||
                     |||                                |||
                     |||                                |||
                     ++++++++++++++++++++++++++++++++++++++
@@ -31,7 +31,7 @@ if __name__ == "__main__":
     scores = 0
     number_of_questions = 20
 
-    print(welcome)
+    print(banner)
 
     for number in range(number_of_questions):
         number += 1
